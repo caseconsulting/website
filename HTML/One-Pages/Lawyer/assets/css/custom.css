@@ -1,23 +1,17 @@
 /* Add here all your css styles (customizations) */
+
+
+/*master background color*/
 .g-theme-bg-color-1 { background: linear-gradient(rgba(32, 40, 43, .75),rgba(136, 140, 141, 1));}
 
+
+
+/*changes arrow color on about section*/
 .arrow-section-block {
 	position: relative;
 	padding: 95px 50px 65px;
 	overflow: visible;
 }
-/*.arrow-section-img {
-	position: relative;
-}
-.arrow-section-img:after {
-	content: "";
-	background-color: rgba(78,67,83,.4);
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-}*/
 
 .arrow-section-block:after {
 	content: " ";
@@ -30,11 +24,11 @@
 	border-right-color: transparent !important;
 	border-left-color: transparent !important;
 	z-index: 2;
-	border-color: #62676A;
+	border-color: #656B6B;
 }
 
 .g-theme-bg-color-1 .arrow-section-block:after {
-	border-color: #62676A;
+	border-color: #656B6B;
 }
 
 .arrow-section-block.arrow-top:after {
@@ -120,4 +114,14 @@ a, a:focus, a:hover, a:active
 {
 	color: #eee;
 	text-decoration: none;
+}
+/*changes header color - master*/
+.lawyer-style h1,
+.lawyer-style h2,
+.lawyer-style h3,
+.lawyer-style h4,
+.lawyer-style h5,
+.lawyer-style h6 {
+	color: #656B6B;
+
 }
