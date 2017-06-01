@@ -125,3 +125,5 @@ a, a:focus, a:hover, a:active
 	color: #656B6B;
 
 }
+
+.g-theme-bg-color-transparent-1 { background: linear-gradient(rgba(32, 40, 43, .75),rgba(136, 140, 141, 1));}
