@@ -46,6 +46,7 @@
 	line-height: 26px;
 }
 
+
 #accordian.panel-group
 {
 	background-color: transparent;
@@ -115,6 +116,7 @@ a, a:focus, a:hover, a:active
 	color: #eee;
 	text-decoration: none;
 }
+
 /*changes header color - master*/
 .lawyer-style h1,
 .lawyer-style h2,
@@ -125,5 +127,3 @@ a, a:focus, a:hover, a:active
 	color: #656B6B;
 
 }
-
-.g-theme-bg-color-transparent-1 { background: linear-gradient(rgba(32, 40, 43, .75),rgba(136, 140, 141, 1));}
