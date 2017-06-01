@@ -51,3 +51,25 @@
 	font-size: 16px;
 	line-height: 26px;
 }
+
+#accordian.panel-group
+{
+	background-color: transparent;
+	color: #eee;
+}
+.panel.panel-default
+{
+	background-color: transparent;
+	border-color: transparent;
+
+}
+
+.panel-default > .panel-heading {
+    background-color:transparent;
+
+}
+.panel-group .panel-heading+.panel-collapse>.list-group, .panel-group .panel-heading+.panel-collapse>.panel-body
+{
+	border-width: 0px;
+	border: none;
+}
