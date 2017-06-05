@@ -17,7 +17,7 @@ function initMap() {
 				stylers: [{color: '#bac6cb'}]
 			}
 		], {
-			name: 'Unify Style'
+			name: 'Case'
 	});
 
 	var image = new google.maps.MarkerImage(
@@ -32,20 +32,20 @@ function initMap() {
 	var map = new google.maps.Map(document.getElementById('map'), {
 		zoom: 12,
 		scrollwheel: false,
-		center: {lat: 40.674, lng: -73.946},  // Brooklyn.
+		center: {lat: 40.674, lng: -73.946},  // Reston.
 		mapTypeControlOptions: {
 			mapTypeIds: [google.maps.MapTypeId.ROADMAP, customMapTypeId]
 		}
 	});
 
 	var infowindow = new google.maps.InfoWindow;
-	infowindow.setContent('<b>Brooklyn</b>');
+	infowindow.setContent('<b>Reston</b>');
 
 	var marker = new google.maps.Marker({
 		map: map,
 		clickable: false,
 		icon: image,
-		position: {lat: 40.674, lng: -73.946}
+		position: {lat: 40.674, lng: -73.946} //Reston
 	});
 
 	map.mapTypes.set(customMapTypeId, customMapType);
