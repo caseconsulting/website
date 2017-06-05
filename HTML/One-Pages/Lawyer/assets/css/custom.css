@@ -1,6 +1,13 @@
 /* Add here all your css styles (customizations) */
 
+/* Acsent bar custom*/
+.bar-up{
+	margin-top: 15px;
+}
 
+.center-font{
+	font-size: 30px;
+}
 /*master background color*/
 .g-theme-bg-color-1 { background: linear-gradient(rgba(32, 40, 43, .75),rgba(136, 140, 141, 1));}
 
