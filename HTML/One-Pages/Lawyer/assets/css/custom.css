@@ -14,6 +14,12 @@
 .center-font{
 	font-size: 30px;
 }
+/*Awards img*/
+.rounded img{
+	height: inherit;
+	width: inherit;
+	border-radius: 500px;
+}
 /*master background color*/
 .g-theme-bg-color-1 { background: linear-gradient(rgba(32, 40, 43, .75),rgba(136, 140, 141, 1));}
 
