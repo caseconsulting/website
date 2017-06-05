@@ -113,6 +113,8 @@
 .panel-group .panel-heading+.panel-collapse>.list-group, .panel-group .panel-heading+.panel-collapse>.panel-body
 {
 	border: none;
+	height: 25em;
+	overflow-y: scroll;
 }
 
 .panel-group .panel-heading+.panel-collapse>.list-group, .panel-group .panel-heading:after {
