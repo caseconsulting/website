@@ -5,6 +5,12 @@
 	margin-top: 15px;
 }
 
+/*benefits fa position*/
+#benefits-fas{
+	font-size: 47px;
+	margin-top: -12px;
+	margin-right: 38px;
+}
 .center-font{
 	font-size: 30px;
 }
