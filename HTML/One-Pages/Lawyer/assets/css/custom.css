@@ -5,7 +5,16 @@
 	margin-top: 15px;
 }
 
-
+.boxed{
+	padding: 15px;
+  border-radius: 1px;
+  box-shadow: 0px 2px 5px #656B6B;
+}
+.boxed:hover{
+	padding: 15px;
+  border-radius: 1px;
+  box-shadow: 1px 3px 5px #656B6B;
+}
 /*benefits fa position*/
 #benefits-fas{
 	font-size: 47px;
