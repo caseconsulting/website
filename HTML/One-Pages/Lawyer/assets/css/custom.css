@@ -188,6 +188,12 @@ a, a:focus, a:hover, a:active
 .retainer {
   width: 70%;
   margin: 15px auto;
+	color: white;
+}
+
+#chart
+{
+	color: white;
 }
 
 /*events gallery*/
