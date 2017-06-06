@@ -163,12 +163,9 @@ a, a:focus, a:hover, a:active
 	background: linear-gradient(rgba(32, 40, 43, .75),rgba(136, 140, 141, 1));
 }
 
-#events
-{
-	padding-bottom: 100px;
-}
 
-/*Work that matters*/
+
+/*About section*/
 #work-that-matters
 {
 	background: linear-gradient(
@@ -185,4 +182,16 @@ a, a:focus, a:hover, a:active
 #leaders-that-captivate
 {
 	background: url("../img/16.png");
+}
+
+/*charts*/
+.retainer {
+  width: 70%;
+  margin: 15px auto;
+}
+
+/*events gallery*/
+#events
+{
+	padding-bottom: 100px;
 }
