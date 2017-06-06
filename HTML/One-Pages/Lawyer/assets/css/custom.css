@@ -184,6 +184,7 @@ a, a:focus, a:hover, a:active
 	background: url("../img/16.png");
 }
 
+
 /*charts*/
 .retainer {
   width: 70%;
@@ -200,4 +201,41 @@ a, a:focus, a:hover, a:active
 #events
 {
 	padding-bottom: 100px;
+}
+/*Career nav-tabs*/
+.nav-tabs > li {
+    float:none;
+    display:inline-block;
+    zoom:1;
+}
+
+.nav-tabs {
+    text-align:center;
+}
+
+
+.tab-pane h3{margin-bottom: 25px;
+    margin-top: 25px;
+}
+.nav-tabs>li.active>a{
+			color: #555;
+	    cursor: default;
+	    background-color: #fff;
+	    border: 1px solid #ddd;
+	    border-bottom-color: transparent;
+}
+.nav-tabs>li.active>a:hover {
+		color: #e74c3c;
+    cursor: default;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+}
+.nav-tabs>li>a:hover {
+		color: #e74c3c;
+    cursor: default;
+		background-color: transparent;
+
+    border-bottom-color: transparent;
+
 }
