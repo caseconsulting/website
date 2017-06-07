@@ -181,15 +181,27 @@ a, a:focus, a:hover, a:active
 }
 
 /*charts*/
-.retainer {
-  width: 70%;
+.pie-container {
+	margin-right: 10%;
+	float: left;
+  width: 30%;
   margin: 15px auto;
-	color: white;
+	color: black;
+	border-right: 1px solid #656B6B;
+}
+
+.bar-container
+{
+	float: left;
+  width: 50%;
+  margin: 15px auto;
+	color: black;
+
 }
 
 #chart
 {
-	color: white;
+	color: black;
 }
 
 /*events gallery*/
