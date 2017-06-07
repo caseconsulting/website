@@ -239,3 +239,20 @@ a, a:focus, a:hover, a:active
     border-bottom-color: transparent;
 
 }
+/*Event styles*/
+strong a{
+	color:white;
+}
+strong a:hover{
+	color:#e74c3c;
+}
+
+.valign__middle{
+	padding-top: 0;
+}
+.text-area-background{
+	background: linear-gradient(to left ,rgba(0, 0, 0, 1),rgba(0, 0, 0, .5));
+}
+.p-scroll{
+	overflow: scroll;
+}
