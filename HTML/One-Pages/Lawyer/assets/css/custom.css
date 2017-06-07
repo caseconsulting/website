@@ -181,9 +181,15 @@ a, a:focus, a:hover, a:active
 
 #leaders-that-captivate
 {
-	background: url("../img/16.png");
+	background: linear-gradient(
+							rgba(0, 0, 0, 0), rgba(0, 0, 0, .85)),url("../img/seigaiha.png");
+	color: white;
 }
+#leaders-that-captivate>h3
+{
 
+	color: white;
+}
 
 /*charts*/
 .retainer {
