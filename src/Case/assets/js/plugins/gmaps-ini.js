@@ -32,7 +32,7 @@ function initMap() {
 	var map = new google.maps.Map(document.getElementById('map'), {
 		zoom: 12,
 		scrollwheel: false,
-		center: {lat: 38.960, lng: -77.359},  // Reston.
+		center: {lat: 39.108, lng: -77.635},
 		mapTypeControlOptions: {
 			mapTypeIds: [google.maps.MapTypeId.ROADMAP, customMapTypeId]
 		}
@@ -45,7 +45,7 @@ function initMap() {
 		map: map,
 		clickable: false,
 		icon: image,
-		position: {lat: 39.108355, lng: -77.635563}
+		position: {lat: 39.108, lng: -77.635563}
 	});
 
 	map.mapTypes.set(customMapTypeId, customMapType);

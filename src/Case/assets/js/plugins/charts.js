@@ -38,12 +38,18 @@ window.onload = function(){
               ticks: {
                   min: 0,
                   max: 100
+              },
+              gridLines: {
+                display: false,
+                drawBorder: false
               }
           }],
-          scaleLabel: {
-            labelString: "%",
-            display: true
-          }
+          yAxes: [{
+            gridLines: {
+              display: false,
+              drawBorder: false
+            }
+          }]
       }
     }
   });
