@@ -182,7 +182,7 @@ a, a:focus, a:hover, a:active
 
 /*charts*/
 .pie-container {
-  width: 90%;
+  width: 70%;
   margin: 15px auto;
 	color: black;
 }
