@@ -39,13 +39,13 @@ function initMap() {
 	});
 
 	var infowindow = new google.maps.InfoWindow;
-	infowindow.setContent('<b>Reston</b>');
+	infowindow.setContent('<b>Leesburg</b>');
 
 	var marker = new google.maps.Marker({
 		map: map,
 		clickable: false,
 		icon: image,
-		position: {lat: 38.960, lng: -77.359}
+		position: {lat: 39.108355, lng: -77.635563}
 	});
 
 	map.mapTypes.set(customMapTypeId, customMapType);
