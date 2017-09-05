@@ -182,21 +182,15 @@ a, a:focus, a:hover, a:active
 
 /*charts*/
 .pie-container {
-	margin-right: 10%;
-	float: left;
-  width: 30%;
+  width: 90%;
   margin: 15px auto;
 	color: black;
-	border-right: 1px solid #656B6B;
 }
 
-.bar-container
-{
-	float: left;
-  width: 50%;
+.bar-container {
+  width: 90%;
   margin: 15px auto;
 	color: black;
-
 }
 
 #chart
