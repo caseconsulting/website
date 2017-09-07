@@ -11,7 +11,7 @@ window.onload = function(){
       labels: ["Developer", "Tester", "Architect", "PM"],
       datasets: [{
         backgroundColor: colors,
-        data: [17, 2, 2, 1]
+        data: [77, 9, 9, 5]
       }]
     },
     options: {
