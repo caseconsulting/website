@@ -22,12 +22,11 @@ window.onload = function(){
   var myChart = new Chart(ctx2, {
     type: 'horizontalBar',
     data: {
-      labels: ["Bachelors Degree", "Masters Degree"],
       datasets: [{
-        // backgroundColor: ["#2ecc71", "#3498db"],
         backgroundColor: colors,
         data: [100, 53]
-      }]
+      }],
+      labels: ["Bachelors Degree", "Masters Degree"]
     },
     options: {
       legend: {
@@ -42,6 +41,10 @@ window.onload = function(){
               gridLines: {
                 display: false,
                 drawBorder: false
+              },
+              scaleLabel: {
+                display: true,
+                labelString: "%"
               }
           }],
           yAxes: [{
