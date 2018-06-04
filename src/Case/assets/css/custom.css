@@ -16,6 +16,11 @@
 	font-size: 30px;
 }
 
+.red-icon {
+	color: Red;
+	font-size: 18px;
+}
+
 /*Awards img*/
 .rounded img {
 	height: inherit;
