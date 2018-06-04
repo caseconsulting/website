@@ -255,3 +255,13 @@ h5 strong a:hover {
 .p-scroll {
 	overflow: scroll;
 }
+
+.button-newPage {
+	background-color: red;
+	height:50px;
+	width:130px;
+	font-size: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-radius: 65px;
+}
