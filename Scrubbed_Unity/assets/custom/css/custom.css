@@ -6,6 +6,10 @@
   margin-top: 15px;
 }
 
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
 /*benefits fa position*/
 
 #benefits-fas {
