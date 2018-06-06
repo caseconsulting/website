@@ -273,3 +273,11 @@ h5 strong a:hover {
   border-radius: 65px;
   outline: none;
 }
+
+/*List Styling*/
+
+.benefits-bullets:before {
+  content: "\f105";
+  font-family: FontAwesome;
+  display: inline-block;
+}
