@@ -787,60 +787,65 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-6 px-0">
-            <!-- Google (Map) [custom] -->
-            <div class="g-pos-rel g-height-600">
-              <div id="gMap" class="js-g-map g-pos-abs w-100 h-100" data-type="custom"
-                data-lat="39.1081556" data-lng="-77.6366307" data-zoom="12" data-title="Lawyers"
-                data-styles='[
-                     ["", "", [{"saturation":-100},{"lightness":51},{"visibility":"simplified"}]],
-                     ["", "labels", [{"visibility":"on"}]],
-                     ["water", "", [{"color":"#f7f4f4"}]]
-                   ]' data-pin="true" data-pin-icon="assets/img/pin.png"></div>
-            </div>
-            <!-- End Google (Map) [custom] -->
+          <!--div class="col-lg-6 px-0 contact-section-map" id="map "-->
+          <!-- Google (Map) [custom] -->
+          <div class="g-pos-rel g-height-600 ">
+            <div id="map" class="js-g-map g-pos-abs w-100 h-100" data-type="custom"
+              data-lat="39.1081556" data-lng="-77.6366307" data-zoom="12" data-title="Lawyers"
+              data-styles='[
+                     [" ", " ", [{"saturation ":-100},{"lightness ":51},{"visibility":"simplified"}]],
+                     [" ", "labels ", [{"visibility ":"on "}]],
+                     ["water ", " ", [{"color ":"#f7f4f4 "}]]
+                   ]' data-pin="true " data-pin-icon="./assets/custom/img/marker.png "></div>
           </div>
+          <!-- End Google (Map) [custom] -->
+        </div>
         </div>
       </section>
-      <!-- End Section Content --><a class="js-go-to rounded-0 u-go-to-v1" href="#!" data-type="fixed" data-position='{
-           "bottom": 15,
-           "right": 15
-         }' data-offset-top="400" data-compensation="#js-header" data-show-effect="zoomIn">
-        <i class="hs-icon hs-icon-arrow-top"></i>
+      <!-- End Section Content --><a class="js-go-to rounded-0 u-go-to-v1
+            " href="#! " data-type="fixed " data-position='{
+           "bottom ": 15,
+           "right ": 15
+         }' data-offset-top="400 " data-compensation="#js-header
+            " data-show-effect="zoomIn ">
+        <i class="hs-icon hs-icon-arrow-top "></i>
       </a> </main>
     <!-- JS Global Compulsory -->
-    <script src="./assets/vendor/jquery/jquery.min.js"></script>
-    <script src="./assets/vendor/jquery-migrate/jquery-migrate.min.js"></script>
-    <script src="./assets/vendor/popper.js/popper.min.js"></script>
-    <script src="./assets/vendor/bootstrap/bootstrap.min.js"></script>
+    <script src="./assets/vendor/jquery/jquery.min.js "></script>
+    <script src="./assets/vendor/jquery-migrate/jquery-migrate.min.js "></script>
+    <script src="./assets/vendor/popper.js/popper.min.js "></script>
+    <script src="./assets/vendor/bootstrap/bootstrap.min.js "></script>
     <!-- JS Implementing Plugins -->
-    <script src="./assets/vendor/appear/appear.js"></script>
-    <script src="./assets/vendor/slick-carousel/slick/slick.js"></script>
-    <script src="./assets/vendor/gmaps/gmaps.min.js"></script>
+    <script src="./assets/vendor/appear/appear.js "></script>
+    <script src="./assets/vendor/slick-carousel/slick/slick.js "></script>
+    <script src="./assets/vendor/gmaps/gmaps.min.js "></script>
+    <!-- JS Maps -->
+    <script src="./assets/custom/js/plugins/gmaps-ini-rtl.js "></script>
+    <script src="./assets/custom/js/plugins/gmaps-ini.js "></script>
     <!-- JS Revolution Slider -->
-    <script src="./assets/vendor/revolution-slider/revolution/js/jquery.themepunch.tools.min.js"></script>
-    <script src="./assets/vendor/revolution-slider/revolution/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="./assets/vendor/revolution-slider/revolution/js/jquery.themepunch.tools.min.js "></script>
+    <script src="./assets/vendor/revolution-slider/revolution/js/jquery.themepunch.revolution.min.js "></script>
     <script src='./assets/vendor/revolution-slider/revolution-addons/slicey/js/revolution.addon.slicey.min.js'></script>
-    <script src="./assets/vendor/revolution-slider/revolution/js/extensions/revolution.extension.actions.min.js"></script>
-    <script src="./assets/vendor/revolution-slider/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
-    <script src="./assets/vendor/revolution-slider/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
-    <script src="./assets/vendor/revolution-slider/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
-    <script src="./assets/vendor/revolution-slider/revolution/js/extensions/revolution.extension.migration.min.js"></script>
-    <script src="./assets/vendor/revolution-slider/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
-    <script src="./assets/vendor/revolution-slider/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script src="./assets/vendor/revolution-slider/revolution/js/extensions/revolution.extension.actions.min.js "></script>
+    <script src="./assets/vendor/revolution-slider/revolution/js/extensions/revolution.extension.carousel.min.js "></script>
+    <script src="./assets/vendor/revolution-slider/revolution/js/extensions/revolution.extension.kenburn.min.js "></script>
+    <script src="./assets/vendor/revolution-slider/revolution/js/extensions/revolution.extension.layeranimation.min.js "></script>
+    <script src="./assets/vendor/revolution-slider/revolution/js/extensions/revolution.extension.migration.min.js "></script>
+    <script src="./assets/vendor/revolution-slider/revolution/js/extensions/revolution.extension.parallax.min.js "></script>
+    <script src="./assets/vendor/revolution-slider/revolution/js/extensions/revolution.extension.slideanims.min.js "></script>
     <!-- Charts.js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.bundle.min.js "></script>
     <script src="./assets/custom/js/plugins/charts.js "></script>
     <!-- JS Unify -->
-    <script src="./assets/vendor/unity/js/hs.core.js"></script>
-    <script src="./assets/vendor/unity/js/components/hs.header.js"></script>
-    <script src="./assets/vendor/unity/js/helpers/hs.hamburgers.js"></script>
-    <script src="./assets/vendor/unity/js/components/hs.scroll-nav.js"></script>
-    <script src="./assets/vendor/unity/js/components/hs.carousel.js"></script>
-    <script src="./assets/vendor/unity/js/components/gmap/hs.map.js"></script>
-    <script src="./assets/vendor/unity/js/components/hs.go-to.js"></script>
+    <script src="./assets/vendor/unity/js/hs.core.js "></script>
+    <script src="./assets/vendor/unity/js/components/hs.header.js "></script>
+    <script src="./assets/vendor/unity/js/helpers/hs.hamburgers.js "></script>
+    <script src="./assets/vendor/unity/js/components/hs.scroll-nav.js "></script>
+    <script src="./assets/vendor/unity/js/components/hs.carousel.js "></script>
+    <script src="./assets/vendor/unity/js/components/gmap/hs.map.js "></script>
+    <script src="./assets/vendor/unity/js/components/hs.go-to.js "></script>
     <!-- JS Customization
-    <script src="./assets/js/custom.js"></script>
+    <script src="./assets/js/custom.js "></script>
     -->
     <!-- JS Plugins Init. -->
     <script>
@@ -914,7 +919,7 @@
       });
 
     </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAtt1z99GtrHZt_IcnK-wryNsQ30A112J0&callback=initMap"
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAtt1z99GtrHZt_IcnK-wryNsQ30A112J0&callback=initMap "
       async></script>
   </body>
 
