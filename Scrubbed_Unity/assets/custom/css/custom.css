@@ -276,8 +276,15 @@ h5 strong a:hover {
 
 /*List Styling*/
 
-.benefits-bullets:before {
-  content: "\f105";
-  font-family: FontAwesome;
-  display: inline-block;
+.list_elem {
+  margin-left: 1rem;
+}
+
+.bullet_top {
+  position: absolute !important;
+  top: 13px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  -webkit-backface-visibility: hidden;
 }
