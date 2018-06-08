@@ -1,6 +1,5 @@
 // https://developers.google.com/maps/documentation/javascript/examples/
 function initMap() {
-  console.log("Test");
   var customMapType = new google.maps.StyledMapType([{
       stylers: [{
           'saturation': -100
@@ -30,7 +29,7 @@ function initMap() {
   });
 
   var image = new google.maps.MarkerImage(
-    '../img/marker.png',
+    './assets/custom/img/marker.png',
     new google.maps.Size(48, 54),
     new google.maps.Point(0, 0),
     new google.maps.Point(24, 54)
