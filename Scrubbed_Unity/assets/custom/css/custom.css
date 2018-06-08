@@ -198,6 +198,10 @@ a, a:focus, a:hover, a:active {
   padding-bottom: 100px;
 }
 
+.card-title {
+  text-decoration: underline;
+}
+
 /*Career nav-tabs*/
 
 .nav-tabs>li {
