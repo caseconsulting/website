@@ -297,3 +297,9 @@ h5 strong a:hover {
   padding-left: 30px;
   height: 60px;
 }
+
+#map {
+  width: 100%;
+  min-height: 650px;
+  height: 100%;
+}
