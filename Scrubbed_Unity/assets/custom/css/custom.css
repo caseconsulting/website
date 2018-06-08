@@ -292,3 +292,8 @@ h5 strong a:hover {
   transform: translateY(-50%);
   -webkit-backface-visibility: hidden;
 }
+
+.nav-pad {
+  padding-left: 30px;
+  height: 60px;
+}
