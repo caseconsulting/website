@@ -139,8 +139,18 @@ body {
   vertical-align: top;
 }
 
-a, a:focus, a:hover, a:active {
-  color: #eee;
+a, a:focus {
+  color: purple;
+  text-decoration: none;
+}
+
+a, a:hover {
+  color: blue;
+  text-decoration: none;
+}
+
+a, a:active {
+  color: red;
   text-decoration: none;
 }
 
