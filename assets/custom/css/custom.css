@@ -288,6 +288,18 @@ h5 strong a:hover {
   outline: none;
 }
 
+[aria-expanded="false"]>.expanded, [aria-expanded="true"]>.collapsed {
+  display: none;
+}
+
+.collapsed {
+  color: white;
+}
+
+.expanded {
+  color: white;
+}
+
 /*List Styling*/
 
 .list_elem {
