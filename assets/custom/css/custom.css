@@ -293,11 +293,30 @@ h5 strong a:hover {
 }
 
 .collapsed {
-  color: white;
+  color: red;
 }
 
 .expanded {
-  color: white;
+  color: red;
+}
+
+.collapseButton {
+  background-color: transparent;
+  user-select: none;
+  box-shadow: 0 0 0 0px rgba(0, 0, 0, 0);
+  border-color: transparent;
+}
+
+.collapseButton:focus {
+  background-color: transparent;
+  user-select: none;
+  box-shadow: 0 0 0 0px rgba(0, 0, 0, 0);
+}
+
+.collapseButton:hover {
+  background-color: transparent;
+  user-select: none;
+  box-shadow: 0 0 0 0px rgba(0, 0, 0, 0);
 }
 
 /*List Styling*/
