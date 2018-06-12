@@ -3,6 +3,10 @@
 <!--[if !IE]><!-->
 <html lang="en">
   <!--<![endif]-->
+  <script>
+    console.time('totalTime');
+
+  </script>
 
   <head>
     <!-- Title -->
@@ -30,16 +34,16 @@
           href="./assets/vendor/icon-line/css/simple-line-icons.css">
     <link rel="stylesheet"
           href="./assets/vendor/icon-awesome/css/fontawesome-all.min.css">
-    <!--<link rel="stylesheet"
-          href="./assets/vendor/icon-hs/style.css">-->
+    <link rel="stylesheet"
+          href="./assets/vendor/icon-hs/style.css">
     <!-- CSS Implementing Plugins -->
     <link rel="stylesheet"
           href="./assets/vendor/hamburgers/hamburgers.min.css">
     <link rel="stylesheet"
           href="./assets/vendor/slick-carousel/slick/slick.css">
     <!-- Revolution Slider -->
-    <!--  <link rel="stylesheet"
-          href="./assets/vendor/revolution-slider/revolution/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css"> -->
+    <link rel="stylesheet"
+          href="./assets/vendor/revolution-slider/revolution/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
     <link rel="stylesheet"
           href="./assets/vendor/revolution-slider/revolution/css/settings.css">
     <link rel="stylesheet"
@@ -54,10 +58,6 @@
           href="./assets/custom/css/custom.css"> </head>
 
   <body>
-    <script>
-      console.time('totalTime');
-
-    </script>
     <main class="g-pt-65 g-pt-90--md">
       <!-- Header -->
       <header id="js-header"
@@ -1028,7 +1028,7 @@
     <script src="./assets/vendor/revolution-slider/revolution/js/jquery.themepunch.revolution.min.js "></script>
     <script src='./assets/vendor/revolution-slider/revolution-addons/slicey/js/revolution.addon.slicey.min.js'></script>
     <script src="./assets/vendor/revolution-slider/revolution/js/extensions/revolution.extension.actions.min.js "></script>
-    <!-- <script src="./assets/vendor/revolution-slider/revolution/js/extensions/revolution.extension.carousel.min.js "></script> -->
+    <script src="./assets/vendor/revolution-slider/revolution/js/extensions/revolution.extension.carousel.min.js "></script>
     <script src="./assets/vendor/revolution-slider/revolution/js/extensions/revolution.extension.kenburn.min.js "></script>
     <script src="./assets/vendor/revolution-slider/revolution/js/extensions/revolution.extension.layeranimation.min.js "></script>
     <script src="./assets/vendor/revolution-slider/revolution/js/extensions/revolution.extension.migration.min.js "></script>
@@ -1115,10 +1115,11 @@
       });
 
     </script>
-    <script>
-      console.timeEnd('totalTime');
 
-    </script>
   </body>
+  <script>
+    console.timeEnd('totalTime');
+
+  </script>
 
 </html>
