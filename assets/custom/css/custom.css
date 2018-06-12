@@ -344,3 +344,7 @@ h5 strong a:hover {
   min-height: 650px;
   height: 100%;
 }
+
+.award {
+  max-width: 500px;
+}
