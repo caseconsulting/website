@@ -5,6 +5,7 @@
   <!--<![endif]-->
   <script>
     console.time('totalTime');
+    console.time('headTime');
 
   </script>
 
@@ -30,19 +31,19 @@
     <!-- CSS Global Compulsory -->
     <link rel="stylesheet"
           href="./assets/vendor/bootstrap/bootstrap.min.css">
-    <link rel="stylesheet"
-          href="./assets/vendor/icon-line/css/simple-line-icons.css">
+    <!--<link rel="stylesheet"
+          href="./assets/vendor/icon-line/css/simple-line-icons.css">-->
     <link rel="stylesheet"
           href="./assets/vendor/icon-awesome/css/fontawesome-all.min.css">
-    <!--  <link rel="stylesheet"
-          href="./assets/vendor/icon-hs/style.css"> -->
+    <!--<link rel="stylesheet"
+          href="./assets/vendor/icon-hs/style.css">-->
     <!-- CSS Implementing Plugins -->
     <link rel="stylesheet"
           href="./assets/vendor/hamburgers/hamburgers.min.css">
     <link rel="stylesheet"
           href="./assets/vendor/slick-carousel/slick/slick.css">
     <!-- Revolution Slider -->
-    <!--<link rel="stylesheet"
+    <!-- <link rel="stylesheet"
           href="./assets/vendor/revolution-slider/revolution/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css">-->
     <link rel="stylesheet"
           href="./assets/vendor/revolution-slider/revolution/css/settings.css">
@@ -56,6 +57,11 @@
     <!-- CSS Customization -->
     <link rel="stylesheet"
           href="./assets/custom/css/custom.css"> </head>
+  <script>
+    console.timeEnd('headTime');
+    console.time('mainTime');
+
+  </script>
 
   <body>
     <main class="g-pt-65 g-pt-90--md">
@@ -1009,6 +1015,11 @@
          data-show-effect="zoomIn ">
         <i class="hs-icon hs-icon-arrow-top "></i>
       </a> </main>
+    <script>
+      console.timeEnd('mainTime');
+      console.time('scriptTime');
+
+    </script>
     <!-- JS Global Compulsory -->
     <script src="./assets/vendor/jquery/jquery.min.js "></script>
     <script src="./assets/vendor/jquery-migrate/jquery-migrate.min.js "></script>
@@ -1115,9 +1126,10 @@
       });
 
     </script>
-
   </body>
+
   <script>
+    console.timeEnd('scriptTime');
     console.timeEnd('totalTime');
 
   </script>
