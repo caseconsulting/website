@@ -348,3 +348,8 @@ h5 strong a:hover {
 .award {
   max-width: 500px;
 }
+
+.bptw {
+  right: 20px;
+  position: relative;
+}
