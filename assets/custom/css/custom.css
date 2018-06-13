@@ -212,6 +212,14 @@ a, a:active {
   text-decoration: underline;
 }
 
+#events .card-deck .card-offset {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border: none;
+}
+
 /*Career nav-tabs*/
 
 .nav-tabs>li {
