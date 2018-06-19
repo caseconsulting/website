@@ -33,6 +33,17 @@ body {
   height: inherit;
   width: inherit;
   border-radius: 500px;
+  max-width: 100%;
+}
+
+.award-container {
+  position: relative;
+  max-width: 100%
+}
+
+.award-overlapped {
+  position: absolute;
+  left: 175px;
 }
 
 /*master background color*/
