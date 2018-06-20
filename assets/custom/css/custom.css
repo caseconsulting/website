@@ -410,6 +410,21 @@ h5 strong a:hover {
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+.logos {
+  max-width: 300px;
+  max-height: 80px
+}
+
+@media only screen and (max-width:720px) {
+  .logos-moible {
+    width: 100%;
+    max-height: 100%;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    text-align: center;
+    display: block !important;
+  }
+}
 .potrait {
   height: 115px;
   width: 115px;
