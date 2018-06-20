@@ -51,6 +51,20 @@ body {
   left: 33%;
 }
 
+@media only screen and (max-width: 760px) {
+  .mobile-image {
+    max-height: 125px;
+  }
+  .award-row {
+    max-width: inherit;
+    position: relative;
+  }
+  .award-overlapped {
+    position: relative;
+    left: 0%;
+  }
+}
+
 /*master background color*/
 
 .g-theme-bg-color-1 {
