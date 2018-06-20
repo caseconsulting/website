@@ -51,9 +51,16 @@ body {
   left: 33%;
 }
 
-@media only screen and (max-width: 760px) {
+.award-shadow {
+  box-shadow: 0px 4px 20px 3px darkslategrey;
+}
+
+@media only screen and (max-width: 767px) {
   .mobile-image {
     max-height: 125px;
+  }
+  .award-container {
+    text-align: center;
   }
   .award-row {
     max-width: inherit;
@@ -62,6 +69,8 @@ body {
   .award-overlapped {
     position: relative;
     left: 0%;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 }
 
