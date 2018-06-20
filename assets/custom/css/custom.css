@@ -425,7 +425,13 @@ h5 strong a:hover {
     display: block !important;
   }
 }
+
 .potrait {
   height: 115px;
   width: 115px;
+}
+
+.event-images {
+  max-width: 375px;
+  max-height: 210px;
 }
