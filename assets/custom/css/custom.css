@@ -409,3 +409,8 @@ h5 strong a:hover {
   background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
+.potrait {
+  height: 115px;
+  width: 115px;
+}
