@@ -410,6 +410,43 @@ h5 strong a:hover {
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+/* parallax css*/
+
+.parallax {
+  /* The image used */
+  background-image: url("../img/online/developer-min.jpg");
+  /* Set a specific height */
+  height: 500px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-content {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  white-space: nowrap;
+  visibility: inherit;
+  transition: none;
+  line-height: 50px;
+  border-width: 0px;
+  margin: 0px;
+  padding: 8px 0px;
+  letter-spacing: 0px;
+  font-weight: 800;
+  font-size: 47px;
+  min-height: 0px;
+  min-width: 0px;
+  max-height: none;
+  max-width: none;
+  opacity: 1;
+}
 .logos {
   max-width: 300px;
   max-height: 80px
