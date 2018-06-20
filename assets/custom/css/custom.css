@@ -38,12 +38,17 @@ body {
 
 .award-container {
   position: relative;
-  max-width: 100%
+  height: auto;
+}
+
+.award-row {
+  max-width: calc(100% - 10px);
+  position: relative;
 }
 
 .award-overlapped {
   position: absolute;
-  left: 175px;
+  left: 33%;
 }
 
 /*master background color*/
