@@ -474,10 +474,43 @@ h5 strong a:hover {
 }
 
 .intern-background {
-  background: #C9D6FF;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #E2E2E2, #C9D6FF);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #E2E2E2, #C9D6FF);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* The image used */
+  background-image: url("../img/temp_internship/make_office.jpg");
+  /* Set a specific height */
+  height: 700px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*
+  filter: blur(5px); // Browser Specific
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  */
+}
+
+.button_clear {
+  filter: none;
+  border-style: double;
+  border-width: 2px;
+  border-color: white;
+  background-color: (0, 0, 0, 0);
+  color: white;
+  font-size: 30px;
+  border-radius: 0px;
+  box-shadow: 1px 1px 20px 3px #313c3c;
+}
+
+.foreground {
+  position: absolute;
+  /* Overlap the previous div */
+  top: inherit;
+  left: inherit;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  /* transparent background */
 }
