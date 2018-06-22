@@ -493,11 +493,10 @@ h5 strong a:hover {
 }
 
 .button_clear {
-  filter: none;
   border-style: double;
   border-width: 2px;
   border-color: white;
-  background-color: (0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
   color: white;
   font-size: 30px;
   border-radius: 0px;
