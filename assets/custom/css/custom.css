@@ -77,7 +77,7 @@ body {
 /*master background color*/
 
 .g-theme-bg-color-1 {
-  background: linear-gradient(rgba(32, 40, 43, .75), rgba(136, 140, 141, 1));
+  background: linear-gradient(rgba(32, 40, 43, 0.75), rgba(136, 140, 141, 1));
 }
 
 /*changes arrow color on about section*/
@@ -99,11 +99,11 @@ body {
   border-right-color: transparent !important;
   border-left-color: transparent !important;
   z-index: 2;
-  border-color: #656B6B;
+  border-color: #656b6b;
 }
 
 .g-theme-bg-color-1 .arrow-section-block:after {
-  border-color: #656B6B;
+  border-color: #656b6b;
 }
 
 .arrow-section-block.arrow-top:after {
@@ -135,37 +135,41 @@ body {
   border-color: transparent;
 }
 
-.panel-default>.panel-heading {
+.panel-default > .panel-heading {
   background-color: transparent;
 }
 
-.panel-default>.panel-heading {
+.panel-default > .panel-heading {
   background-color: transparent;
 }
 
-.panel-group .panel-heading+.panel-collapse>.list-group, .panel-group .panel-heading {
+.panel-group .panel-heading + .panel-collapse > .list-group,
+.panel-group .panel-heading {
   display: inline-block;
   position: relative;
   padding-bottom: 5px;
 }
 
-.panel-group .panel-heading+.panel-collapse>.list-group, .panel-group .panel-heading+.panel-collapse>.panel-body {
+.panel-group .panel-heading + .panel-collapse > .list-group,
+.panel-group .panel-heading + .panel-collapse > .panel-body {
   border: none;
   height: 25em;
   overflow-y: scroll;
 }
 
-.panel-group .panel-heading+.panel-collapse>.list-group, .panel-group .panel-heading:after {
-  content: '';
+.panel-group .panel-heading + .panel-collapse > .list-group,
+.panel-group .panel-heading:after {
+  content: "";
   display: block;
   margin: auto;
   height: 3px;
   width: 0px;
   background: transparent;
-  transition: width .3s ease, background-color .3s ease;
+  transition: width 0.3s ease, background-color 0.3s ease;
 }
 
-.panel-group .panel-heading+.panel-collapse>.list-group, .panel-group .panel-heading:hover:after {
+.panel-group .panel-heading + .panel-collapse > .list-group,
+.panel-group .panel-heading:hover:after {
   width: 100%;
   background: #e74c3c;
 }
@@ -178,48 +182,58 @@ body {
   vertical-align: top;
 }
 
-a, a:focus {
+a,
+a:focus {
   color: purple;
   text-decoration: none;
 }
 
-a, a:hover {
+a,
+a:hover {
   color: blue;
   text-decoration: none;
 }
 
-a, a:active {
+a,
+a:active {
   color: red;
   text-decoration: none;
 }
 
 /*changes header color - master*/
 
-.lawyer-style h1, .lawyer-style h2, .lawyer-style h3, .lawyer-style h4, .lawyer-style h5, .lawyer-style h6 {
-  color: #656B6B;
+.lawyer-style h1,
+.lawyer-style h2,
+.lawyer-style h3,
+.lawyer-style h4,
+.lawyer-style h5,
+.lawyer-style h6 {
+  color: #656b6b;
 }
 
 .g-theme-bg-color-transparent-1 {
-  background: linear-gradient(rgba(32, 40, 43, .75), rgba(136, 140, 141, 1));
+  background: linear-gradient(rgba(32, 40, 43, 0.75), rgba(136, 140, 141, 1));
 }
 
 /*About section*/
 
 #work-that-matters {
-  background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, .85)), url("../img/6.png");
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.85)),
+    url("../img/6.png");
   color: white;
 }
 
-#work-that-matters>h3 {
+#work-that-matters > h3 {
   color: white;
 }
 
 #leaders-that-captivate {
-  background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, .85)), url("../img/seigaiha.png");
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.85)),
+    url("../img/seigaiha.png");
   color: white;
 }
 
-#leaders-that-captivate>h3 {
+#leaders-that-captivate > h3 {
   color: white;
 }
 
@@ -261,7 +275,7 @@ a, a:active {
 
 /*Career nav-tabs*/
 
-.nav-tabs>li {
+.nav-tabs > li {
   float: none;
   display: inline-block;
   zoom: 1;
@@ -276,7 +290,7 @@ a, a:active {
   margin-top: 25px;
 }
 
-.nav-tabs>li.active>a {
+.nav-tabs > li.active > a {
   color: #555;
   cursor: default;
   background-color: #fff;
@@ -284,7 +298,7 @@ a, a:active {
   border-bottom-color: transparent;
 }
 
-.nav-tabs>li.active>a:hover {
+.nav-tabs > li.active > a:hover {
   color: #e74c3c;
   cursor: default;
   background-color: #fff;
@@ -292,11 +306,11 @@ a, a:active {
   border-bottom-color: transparent;
 }
 
-.nav-tabs>li>a {
+.nav-tabs > li > a {
   color: #ddd;
 }
 
-.nav-tabs>li>a:hover {
+.nav-tabs > li > a:hover {
   color: #e74c3c;
   background-color: #fff;
   border-bottom-color: transparent;
@@ -317,7 +331,7 @@ h5 strong a:hover {
 }
 
 .text-area-background {
-  background: linear-gradient(to left, rgba(0, 0, 0, 1), rgba(0, 0, 0, .5));
+  background: linear-gradient(to left, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5));
 }
 
 .p-scroll {
@@ -335,7 +349,8 @@ h5 strong a:hover {
   outline: none;
 }
 
-[aria-expanded="false"]>.expanded, [aria-expanded="true"]>.collapsed {
+[aria-expanded="false"] > .expanded,
+[aria-expanded="true"] > .collapsed {
   display: none;
 }
 
@@ -449,10 +464,10 @@ h5 strong a:hover {
 }
 .logos {
   max-width: 300px;
-  max-height: 80px
+  max-height: 80px;
 }
 
-@media only screen and (max-width:720px) {
+@media only screen and (max-width: 720px) {
   .logos-moible {
     width: 100%;
     max-height: 100%;
@@ -475,7 +490,7 @@ h5 strong a:hover {
 
 .intern-background {
   /* The image used */
-  background-image: url("../img/temp_internship/make_office.jpg");
+  background-image: url("../img/office/kitchen_edit.jpg");
   /* Set a specific height */
   height: 700px;
   /* Create the parallax scrolling effect */
