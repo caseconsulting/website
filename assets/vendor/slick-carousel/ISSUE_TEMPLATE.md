@@ -7,7 +7,7 @@
 ###### `[  paste your jsfiddle link here  ]`  
 
 use this jsfiddle to reproduce your bug: 
-http://jsfiddle.net/simeydotme/fmo50w7n/ 
+https://jsfiddle.net/simeydotme/fmo50w7n/ 
 we will likely close your issue without it.
 
 

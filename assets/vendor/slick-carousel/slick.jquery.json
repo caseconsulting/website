@@ -12,18 +12,18 @@
     "version": "1.8.0",
     "author": {
         "name": "Ken Wheeler",
-        "url": "http://kenwheeler.github.io"
+        "url": "https://kenwheeler.github.io"
     },
     "maintainers": [{
         "name": "Ken Wheeler",
         "email": "dubmediagroup@gmail.com",
-        "url": "http://www.dubmediagroup.com"
+        "url": "https://www.dubmediagroup.com"
     }],
     "licenses": [{
         "type": "MIT",
         "url": "https://github.com/kenwheeler/slick/blob/master/LICENSE"
     }],
-    "demo": "http://kenwheeler.github.io/slick/",
+    "demo": "https://kenwheeler.github.io/slick/",
     "bugs": "https://github.com/kenwheeler/slick/issues",
     "homepage": "https://github.com/kenwheeler/slick/",
     "docs": "https://github.com/kenwheeler/slick/",

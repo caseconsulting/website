@@ -3,7 +3,7 @@
  *
  * @author Htmlstream
  * @version 1.0
- * @requires Countdown (v2.2.0, http://hilios.github.io/jQuery.countdown), circles.js (v0.0.6)
+ * @requires Countdown (v2.2.0, https://hilios.github.io/jQuery.countdown), circles.js (v0.0.6)
  *
  */
 ;(function ($) {
