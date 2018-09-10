@@ -9,8 +9,8 @@ gmaps.js - A Javascript library that simplifies your life
 
 gmaps.js allows you to use the potential of Google Maps in a simple way. No more extensive documentation or large amount of code.
 
-Visit the examples in [hpneo.github.com/gmaps](http://hpneo.github.com/gmaps/)
-Go to the API Documentation [hpneo.github.io/gmaps/documentation.html](http://hpneo.github.io/gmaps/documentation.html)
+Visit the examples in [hpneo.github.com/gmaps](https://hpneo.github.com/gmaps/)
+Go to the API Documentation [hpneo.github.io/gmaps/documentation.html](https://hpneo.github.io/gmaps/documentation.html)
 
 Quick Start
 -----
@@ -24,7 +24,7 @@ Quick Start
 <html>
 <head>
   <title></title>
-  <script src="http://maps.google.com/maps/api/js"></script>
+  <script src="https://maps.google.com/maps/api/js"></script>
   <script src="gmaps.js"></script>
   <style type="text/css">
     #map {
@@ -52,7 +52,7 @@ Use with AMD
 With require.js, you need to load Google Maps JavaScript API first. For example, assuming you have a `googlemapsapi.js` file:
 
 ```javascript
-define(['async!http://maps.google.com/maps/api/js?v=3&sensor=false'], function() {});
+define(['async!https://maps.google.com/maps/api/js?v=3&sensor=false'], function() {});
 ```
 
 Next you have to define the dependency for gmaps.js:
@@ -524,7 +524,7 @@ Changelog
 
 License
 ---------
-MIT License. Copyright 2014 Gustavo Leon. http://github.com/hpneo
+MIT License. Copyright 2014 Gustavo Leon. https://github.com/hpneo
 
 Permission is hereby granted, free of charge, to any
 person obtaining a copy of this software and associated
