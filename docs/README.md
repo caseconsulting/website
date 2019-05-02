@@ -1,0 +1,1 @@
+<Posts page="case-cares" />
